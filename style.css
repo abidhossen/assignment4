@@ -73,6 +73,7 @@ nav ul li a:hover, a.active{
 }
 .plus-minus-btn a{
     color: #3352F2;
+    cursor: pointer;
 }
 .booking-form  .calculations{
     margin: 10px 0;
