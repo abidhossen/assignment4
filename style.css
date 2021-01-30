@@ -5,13 +5,14 @@
     text-decoration: none;
     list-style-type: none;
 }
-body{
+#total-section{
     font-family: 'Roboto', sans-serif;
     background:url("images/bg.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
+    height: 950px;
 }
 
 nav{
@@ -122,4 +123,16 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+.ticket-confirm{
+    font-family: 'Roboto', sans-serif;
+    margin: 100px 100px;
+    display: none;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+.ticket-confirm p{
+    padding-top: 10px;
 }
